@@ -1,0 +1,828 @@
+*{
+
+margin: 0%;
+padding: 0%;
+
+}
+html{
+font-size:16px;
+ 
+position: absolute;
+}
+
+
+section{
+    display: flex;
+    flex-direction: column;
+align-items: center;
+height:100vh;
+width: 100vw;
+overflow:hidden;
+background: linear-gradient(180deg, #F9F8F8 74.48%, #E5E5E5 86.98%, rgba(165, 222, 251, 0.15) 100%);
+}
+button{
+    /*button css*/
+    position: relative;
+
+
+    width: 10em ;
+    height: 3em  ;
+    background: #FD9F11;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 1rem;
+    /*font css*/
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #F9F8F8;
+    border:none;
+
+    }
+
+
+nav{
+position:fixed;
+height: 8%;
+background: #1655B2;
+width: 100vw;
+z-index: 2;
+opacity: 75%;  
+}
+
+.roxe-logo{
+position: absolute;
+width: 4em;
+left: 4vw;
+top: 2vh;
+animation: logofadein 1.5s;
+}
+@keyframes logofadein {
+
+from{
+opacity: 0;
+
+}
+to{
+opacity: 1;
+
+}
+
+
+}
+
+.landing{
+background: linear-gradient(180deg, #1655B2 25%, #00A6FB 100%);
+ 
+
+}
+.landing-text-container{
+position: relative;
+width: 100%;
+ top: 14vh;
+ display: flex;
+ flex-direction: column;
+align-items: center;
+
+}
+
+.landing-text-container h1{
+
+position: relative;
+top: 22vh;
+width: 100%;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 20vw;
+line-height: 4.5rem;
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+color: #F9F8F8;
+}
+
+
+ .landing-desc{
+
+position: relative;
+top: 23vh;
+font-family: Nunito;
+font-style: normal;
+font-size: 1.1rem;
+line-height: 1.5rem;
+display: flex;
+align-items: center;
+letter-spacing: auto;
+text-align:center;
+color: #F9F8F8;
+
+}
+
+.landing-desc b{
+color: #FD9F11;
+
+}
+
+.landing-button{
+
+    width: 9em;
+    height: 3em;
+/* left: 22vw; */
+top: 27vh;
+
+}
+
+
+
+
+
+.img-container01{
+position: relative;
+
+}
+
+
+
+.img-container01 h1{
+
+ 
+ position: relative;
+width: 100%;
+left: 52vw;
+top: 6vh;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size:2rem;
+line-height:1.8rem;
+
+
+
+color: #222222;
+
+
+}
+
+
+.img-container01 p{
+position:relative;
+width: 80%;
+left: 8vw;
+top: 12vh;
+
+font-family: Nunito;
+font-style: normal;
+font-weight: 200;
+font-size: 1rem;
+line-height: 1.24rem;
+
+display: flex;
+align-items: center;
+text-align:justify;
+
+color: #222222;
+
+}
+
+
+
+#title-02{
+position:relative;
+width: 80%;
+left: 8vw;
+top:14vh;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 1.25rem;
+line-height:1.5rem;
+
+
+display: flex;
+align-items: center;
+
+color: #222222;
+
+
+
+
+}
+
+
+#par-02{
+position:relative;
+width: 100%;
+left: 8vw;
+top: 16vh;
+
+font-family: Nunito;
+font-style: normal;
+font-weight: 200;
+font-size: 1rem;
+line-height:1.25rem;
+display: flex;
+align-items: center;
+text-align: left;
+
+color: #222222;
+
+
+}
+#btn-02{
+ 
+    width:6em;
+left:30vw;
+top:22vh;
+
+}
+/*Merchants*/
+
+.img-container02 {
+position:  relative
+}
+
+#merchant-title{
+position: relative;
+position: relative;
+width: 60%;
+left: 4vw;
+top: 6vh;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size:2rem;
+line-height:1.8rem;
+
+
+
+color: #222222;
+
+}
+
+
+
+#merchant-p01{
+    position:relative;
+    width: 80%;
+    left: 8vw;
+    top: 12vh;
+    
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 1rem;
+    line-height: 1.24rem;
+    
+    display: flex;
+    align-items: center;
+    text-align:justify;
+    
+    color: #222222;
+
+
+}
+
+#merchant-p02{
+    position:relative;
+    width: 80%;
+    left: 8vw;
+    top: 14vh;
+    
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 1rem;
+    line-height: 1.24rem;
+    
+    display: flex;
+    align-items: center;
+    text-align:justify;
+    
+    color: #222222;
+
+
+
+}
+
+#merchant-btn{
+    width:6em;
+left:30vw;
+top:18vh;
+
+}
+
+/*Banks*/
+
+#banks-title{
+    position: relative;
+    position: relative;
+    width: 40%;
+    left: 60vw;
+    top: 6vh;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size:2rem;
+    line-height:1.8rem;
+    
+    
+    
+    color: #222222;
+}
+#banks-t01{
+
+    position:relative;
+    width: 100%;
+    left: 8vw;
+    top:12vh;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.25rem;
+    line-height:1.5rem;
+    
+    
+    display: flex;
+    align-items: center;
+    
+    color: #222222;
+
+}
+
+#banks-p01{
+    position:relative;
+    width: 80%;
+    left: 8vw;
+    top: 16vh;
+    
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 1rem;
+    line-height: 1.24rem;
+    
+    display: flex;
+    align-items: center;
+    text-align:justify;
+    
+    color: #222222;
+
+}
+
+
+
+#banks-p02{
+    position:relative;
+    width: 80%;
+    left: 8vw;
+    top: 17vh;
+    
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 1rem;
+    line-height: 1.24rem;
+    
+    display: flex;
+    align-items: center;
+    text-align:justify;
+    
+    color: #222222;
+
+}
+
+#banks-btn{
+    width:6em;
+left:30vw;
+top:24vh;
+}
+
+/*Remittances*/
+
+#remittance-title{
+    position: relative;
+    position: relative;
+    width: 60%;
+    left: 4vw;
+    top: 6vh;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size:2rem;
+    line-height:1.8rem;
+    
+    
+    
+    color: #222222;
+
+}
+
+#remittance-p01{
+    position:relative;
+    width: 80%;
+    left: 8vw;
+    top: 12vh;
+    
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 1rem;
+    line-height: 1.24rem;
+    
+    display: flex;
+    align-items: center;
+    text-align:justify;
+    
+    color: #222222;
+
+
+
+}
+
+#remittance-p02 {
+    position:relative;
+    width: 80%;
+    left: 8vw;
+    top: 14vh;
+    
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 1rem;
+    line-height: 1.24rem;
+    
+    display: flex;
+    align-items: center;
+    text-align:justify;
+    
+    color: #222222;
+
+
+}
+
+#remittance-btn{
+    width:6em;
+left:30vw;
+top:20vh;
+}
+
+/* Roxe Network Section  */
+ 
+#ipay-logo{
+position: relative;
+height: auto;
+width:66%;
+ 
+top: 12vh;
+
+}
+
+.rnetwork-p01 {
+
+    position:relative;
+    width: 90%;
+  
+    top:12vh;
+
+font-family: Nunito;
+font-style: normal;
+font-weight: normal;
+font-size: 1rem;
+line-height: 1.25rem;
+ 
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 1px;
+
+color: #F9F8F8;
+}
+
+
+.rnetwork-p02{
+
+    position:relative;
+    width: 100%;
+    left: 16vw;
+    top: 12vh;
+
+font-family: roboto;
+font-style: normal;
+font-weight: normal;
+font-size: .7rem;
+line-height: 1.5rem;
+/* or 150% */
+
+display: flex;
+align-items: center;
+text-align: right;
+letter-spacing: 1px;
+
+color: #F9F8F8;
+
+
+
+}
+.rnetwork-p03{
+    position:relative;
+    width: 100%;
+    left:16%;
+    top: 24vh;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.25rem;
+
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #F9F8F8;
+}
+
+
+#ipay-logo-small{
+    position: relative;
+    height: auto;
+    width:18%;
+    /* left: 12vw;
+    top: 14vh; */
+
+}
+
+#ecsfin-logo-small{
+
+    position: relative;
+    height: auto;
+    width:25%;
+    /* left: 16vw;
+    top: 15vh; */
+
+}
+
+#n2xexpress-logo-small{
+    position: relative;
+    height: auto;
+    width:20%;
+   
+    /* left: 20vw;
+    top: 15vh; */
+
+}
+
+#fairexpay-logo-small{
+    position: relative;
+    height: auto;
+    width:25%;
+    
+ 
+    /* left: 8vw;
+    top: 14vh; */
+
+}
+
+#rana-logo-small{
+    position: relative;
+    height: auto;
+    width:25%;
+ 
+    /* left: 6vw;
+    top: 14vh; */
+
+
+
+}
+#treviso-logo-small{
+    position: relative;
+    height: auto;
+    width:15%;
+ 
+    /* left: 8vw;
+    top: 12vh; */
+
+
+
+}
+.logo-small-container{
+ position:relative;
+top: 25%;
+ display: flex;
+ flex-flow: row wrap;
+ justify-content: space-evenly;
+ align-items:center;
+ align-content: center;
+ gap: 0.3rem 1rem ;
+ 
+ 
+
+}
+
+/* Call to Action  */
+
+ 
+
+.call-to-action{
+
+   margin-top: -1px;
+background:
+#00A6FB;
+display: flex;
+height: 80vh;
+max-height: 100vh;
+flex-direction: column;
+align-items: center;
+ 
+}
+
+.call-to-action-title{
+position: relative;
+top: 20vh;
+width: 100%;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 3rem;
+line-height: 3rem;
+ display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+color: #F9F8F8;
+}
+#pitch-call-to-action{
+
+    position: relative;
+    top: 22vh;
+    font-family: Nunito;
+    font-style: normal;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    display: flex;
+    align-items: center;
+    letter-spacing: auto;
+    text-align:center;
+    color: #F9F8F8;
+}
+.call-to-action-btn{
+position: relative;
+height: 3em;
+width:9em;
+ 
+top:32vh;
+background: #222222;
+
+}
+ 
+
+/*Site Map*/
+
+
+
+.site-map{
+
+height: 100vh;
+max-height: 100vh;;
+margin-top: -2px;
+background:#00A6FB;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+
+}
+.site-map p{
+    position: relative;
+ 
+    margin-left: 8vw;
+    font-family: Nunito;
+    font-style: bold;
+    font-size: 1.5rem;
+    line-height:2rem;
+    color: #F9F8F8
+}
+.site-map a{
+    position: relative;
+ 
+    margin-left: 12vw;
+    font-family: roboto;
+    font-style: normal;
+    font-size:2rem;
+    line-height: 2rem;
+    text-decoration: none;
+    color: #F9F8F8;
+  
+}
+.site-map a:hover{
+color: #FD9F11;
+
+}
+
+
+/* last items in this document */
+
+.remittance-appear{
+position: absolute;
+width: 100vw;
+height: 100vh;
+opacity: 1;
+transition: .5s all ease-in-out;
+z-index: 1;
+
+}
+
+.remittance-fade{
+position: absolute;
+
+opacity: 0;
+width: 100vw;
+height: 100vh;
+z-index: 1;
+}
+
+
+.banks-appear{
+position: absolute;
+width: 100vw;
+height: 100vh;
+opacity: 1;
+transition: .5s all ease-in-out;
+z-index: 1;
+
+}
+
+.banks-fade{
+position: absolute;
+
+opacity: 0;
+width: 100vw;
+height: 100vh;
+z-index: 1;
+}
+
+
+
+.merchant-appear{
+position: absolute;
+width: 100vw;
+height: 100vh;
+opacity: 1;
+transition: .5s all ease-in-out;
+z-index: 1;
+
+}
+
+.merchant-fade{
+position: absolute;
+
+opacity: 0;
+width: 100vw;
+height: 100vh;
+z-index: 1;
+}
+
+
+
+
+.fade-image{
+position: absolute;
+width: 100vw;
+height: 100vh;
+opacity: 1;
+transition: .5s all ease-in-out;
+z-index: 1;
+
+}
+
+.image-appear{
+position: absolute;
+
+opacity: 0;
+width: 100vw;
+height: 100vh;
+z-index: 1;
+}
+
+.scene-3d, canvas{
+position:absolute;
+  
+width: 100vw;
+height: 100vh;
+ top:-30%;
+left: auto;
+display: flex;
+align-items: center;
+align-content: center;
+justify-content: center;
+opacity: .75;
+}
